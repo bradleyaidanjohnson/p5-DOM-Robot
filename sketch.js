@@ -33,7 +33,7 @@ function Robot(colour, transmitting, name, rotation) {
   var transmitButton = createButton("transmit");
   transmitButton.parent(controlsDiv);
   transmitButton.mousePressed(function () {
-    console.log(self);
+    // console.log(self);
     self.transmitting = !self.transmitting;
   });
 
